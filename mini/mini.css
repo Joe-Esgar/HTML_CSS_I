@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Cantata+One');
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-image: url("./background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* height: 200vh;
+    background-attachment: fixed;*/
+    font-family: 'Cantata One', serif;
+}
+
+header {
+    height: 100px;
+    padding: 25px;
+}
+
+header img {
+    height: 50px;
+    float: left;
+}
+
+header ul {
+    padding: 15px;
+}
+
+header li {
+    float: right;
+    margin: 0 15px;
+    color: white;
+    font-size: 22px;
+}
+
+main {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700px;
+    transition: 0.4s;
+    border: none;
+    background: linear-gradient(blue, green, red);
+    letter-spacing: 2px;
+    border-radius: 2px;
+}
+
+button:hover {
+    background: linear-gradient(yellow, purple, orange);
+    color: white;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.356);
+
+}
